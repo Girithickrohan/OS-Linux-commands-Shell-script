@@ -305,13 +305,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-![img]()
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-06-17.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-07-36.png)
 
 cat < urllist.txt
 ```
@@ -328,18 +329,16 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-08-14.png)
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-08-52.png)
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-11-26.png)
 
 mkdir backupdir
  
@@ -347,18 +346,17 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-12-02.png)
 
 tar -xvf backup.tar
 ## OUTPUT
 
-gzip backup.tar
-
-ls .gz
-## OUTPUT
+![alt text](<images/Screenshot from 2024-08-24 08-12-02.png>) 
  
+
 gunzip backup.tar.gz
 ## OUTPUT
+
 
  
 # Shell Script
@@ -368,8 +366,6 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
 chmod 755 my-script.sh
 ./my-script.sh
-## OUTPUT
-
  
 cat << stop > herecheck.txt
 ```
@@ -382,6 +378,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
+![alt text](<images/Screenshot from 2024-08-24 08-23-28.png>)
 
 cat < scriptest.sh 
 ```bash
@@ -420,24 +417,17 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
- 
+!![alt text](image.png)
 ls file1
 ## OUTPUT
 
-echo $?
-## OUTPUT 
-./one
-bash: ./one: Permission denied
- 
-echo $?
-## OUTPUT 
- 
-abcd
- 
-echo $?
- ## OUTPUT
+![alt text](<images/Screenshot from 2024-08-24 08-25-21.png>) 
 
 
+echo $?
+## OUTPUT 
+
+./one bash: ./one: Permission denied
  
 # mis-using string comparisons
 
@@ -469,13 +459,14 @@ fi
 ```
 ##OUTPUT
 
-
+![alt text](image-1.png)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
 
+![alt text](image-1.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -502,6 +493,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
+![alt text](image-1.png)
 
 # check if with file location
 cat>ifnested.sh 
@@ -549,7 +542,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-
+![alt text](image-2.png)
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -591,7 +584,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+
+![alt text](image-3.png)
 
 # check if a file
 cat > ifnested.sh 
@@ -640,7 +635,9 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+
+![alt text](image-4.png)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -670,6 +667,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+![alt text](image-5.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -685,6 +683,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+![alt text](image-6.png)
 
 # using the case command
 cat >casecheck.sh 
@@ -703,8 +703,12 @@ esac
 ```
 $ chmod 755 casecheck.sh 
  
-$ ./casecheck.sh 
- 
+$ ./casecheck.sh
+
+## OUTPUT
+
+![alt text](image-7.png)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -720,7 +724,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+![alt text](image-8.png)
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -732,8 +737,10 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
+
+## OUTPUT
+
+![alt text](image-9.png)
  
 cat forin1.sh 
 ```bash
@@ -746,8 +753,11 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
- 
+
+## OUTPUT
+
+![alt text](image-10.png)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -759,6 +769,8 @@ done
  ```
  
 $ chmod 755 forin2.sh
+
+![alt text](image-11.png)
  
 cat forin2.sh 
 ```bash
@@ -772,6 +784,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
+![alt text](image-12.png)
  
 cat forin3.sh 
 ```bash
@@ -783,6 +797,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
+![alt text](image-13.png)
  
 cat forin1.sh 
 ```bash
@@ -818,6 +834,8 @@ Khammam
 
 ## OUTPUT
 
+![alt text](image-14.png)
+
 
 cat forctype.sh 
 ```bash
@@ -832,6 +850,8 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
+![alt text](image-15.png)
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -844,6 +864,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
+![alt text](image-17.png)
 
 cat fornested1.sh 
 ```bash
@@ -863,6 +885,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
+![alt text](image-18.png)
  
 cat forbreak.sh 
 ```bash
@@ -879,6 +902,8 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+
+![alt text](image-19.png)
 
 $ chmod 755 forbreak.sh
  
@@ -904,6 +929,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+
+![alt text](image-20.png)
  
 cat exread.sh 
 ```bash
@@ -919,6 +946,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
+![alt text](image-18.png)
 
  cat exread1.sh
 ```bash
@@ -931,7 +959,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
-
+![alt text](image-21.png)
 
 $ ./exread1.sh 
  
@@ -951,11 +979,8 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
- ./funcex.sh 
 
- 
- ./funcex.sh 1 2
-
+![alt text](image-22.png)
  
 cat argshift.sh
 ```bash
@@ -966,6 +991,8 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+
+![alt text](image-23.png)
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
@@ -998,10 +1025,12 @@ done
 set +x
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
- 
- 
+./argshift.sh 1 2 3 
+
 cat > nc.awk
+
+![alt text](image-26.png)
+
 ```bash
 BEGIN{}
 {
@@ -1030,6 +1059,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+
+![alt text](image-25.png)
  
 cat > palindrome.sh
 ```bash
@@ -1058,6 +1089,7 @@ fi
 ```
 ## OUTPUT 
 
+![alt text](image-24.png)
 
 # RESULT:
 The Commands are executed successfully.
