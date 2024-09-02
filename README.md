@@ -42,17 +42,17 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2008-39-18.png
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2008-39-18.png)
 cat < file2
 ## OUTPUT
-https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2008-44-40.png
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2008-44-40.png)
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2008-46-30.png
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2008-46-30.png)
 comm file1 file2
  ## OUTPUT
- https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2008-48-41.png
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2008-48-41.png)
 diff file1 file2
 ## OUTPUT
 
