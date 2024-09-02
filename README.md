@@ -351,7 +351,7 @@ tar -tvf backup.tar
 tar -xvf backup.tar
 ## OUTPUT
 
-![alt text](<images/Screenshot from 2024-08-24 08-12-02.png>) 
+![img](<images/Screenshot from 2024-08-24 08-12-02.png>) 
  
 
 gunzip backup.tar.gz
@@ -378,7 +378,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
-![alt text](<images/Screenshot from 2024-08-24 08-23-28.png>)
+![img](<images/Screenshot from 2024-08-24 08-23-28.png>)
 
 cat < scriptest.sh 
 ```bash
@@ -417,11 +417,11 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
-!![alt text](image.png)
+!![img](image.png)
 ls file1
 ## OUTPUT
 
-![alt text](<images/Screenshot from 2024-08-24 08-25-21.png>) 
+![img](<images/Screenshot from 2024-08-24 08-25-21.png>) 
 
 
 echo $?
@@ -459,14 +459,14 @@ fi
 ```
 ##OUTPUT
 
-![alt text](image-1.png)
+![img](image-1.png)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
 
-![alt text](image-1.png)
+![img](image-1.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -494,7 +494,7 @@ fi
 ./psswdperm.sh
 ## OUTPUT
 
-![alt text](image-1.png)
+![img](image-1.png)
 
 # check if with file location
 cat>ifnested.sh 
@@ -542,7 +542,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-![alt text](image-2.png)
+![img](image-2.png)
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -637,7 +637,7 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 ## OUTPUT
 
-![alt text](image-4.png)
+![img](image-4.png)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -667,7 +667,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-![alt text](image-5.png)
+!img](image-5.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -684,7 +684,7 @@ $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
 
-![alt text](image-6.png)
+![img](image-6.png)
 
 # using the case command
 cat >casecheck.sh 
