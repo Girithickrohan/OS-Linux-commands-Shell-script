@@ -86,18 +86,15 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2008-49-41.png)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2008-58-48.png)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2009-01-25.png)
 
 cat < newfile 
 ```
@@ -111,40 +108,31 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2020-34-40.png)
 
 grep hello newfile 
 ## OUTPUT
-
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2020-36-22.png)
 
 grep -v hello newfile 
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2020-37-54.png)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2020-39-10.png)
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2020-40-16.png)
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2020-48-38.png)
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2020-49-46.png)
 
 cat < newfile 
 ```
@@ -167,60 +155,52 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2020-51-39.png)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2020-51-39.png)
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2021-08-29.png)
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2021-09-26.png)
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2021-10-13.png)
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2021-57-21.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2021-58-13.png)
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2021-59-03.png)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2022-01-13.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2022-01-13.png)
 
 egrep l{2} newfile
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2022-02-06.png)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2022-02-52.png)
 
 cat > file23
 ```
@@ -238,80 +218,68 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2022-04-01.png)
 
 sed -n -e '$p' file23
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2022-04-40.png)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2022-05-26.png)
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2022-06-07.png)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-22%2022-14-54.png)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-00-08.png)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-00-38.png)
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-01-00.png)
 
 seq 10 
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-01-21.png)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-01-43.png)
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-02-07.png)
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-02-28.png)
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-02-48.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-03-13.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-03-34.png)
 
 
 sed -n '2,4{s/$/*/;p}' file23
-
+## OUTPUT
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-05-09.png)
 
 #Sorting File content
 cat > file21
@@ -324,7 +292,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-05-09.png)
 
 cat > file22
 ```
@@ -337,7 +305,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![img]()
 
 
 #Using tr command
