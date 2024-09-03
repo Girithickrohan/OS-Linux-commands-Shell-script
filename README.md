@@ -351,7 +351,7 @@ tar -tvf backup.tar
 tar -xvf backup.tar
 ## OUTPUT
 
-![img](<images/Screenshot from 2024-08-24 08-12-02.png>) 
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-12-02.png) 
  
 
 gunzip backup.tar.gz
@@ -378,7 +378,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
-![img](<images/Screenshot from 2024-08-24 08-23-28.png>)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-23-28.png)
 
 cat < scriptest.sh 
 ```bash
@@ -417,11 +417,11 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
-!![img](image.png)
+!![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image.png)
 ls file1
 ## OUTPUT
 
-![img](<images/Screenshot from 2024-08-24 08-25-21.png>) 
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/images/Screenshot%20from%202024-08-24%2008-25-21.png) 
 
 
 echo $?
@@ -459,14 +459,14 @@ fi
 ```
 ##OUTPUT
 
-![img](image-1.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-1.png)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
 
-![img](image-1.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-1.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -494,7 +494,7 @@ fi
 ./psswdperm.sh
 ## OUTPUT
 
-![img](image-1.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-1.png)
 
 # check if with file location
 cat>ifnested.sh 
@@ -542,7 +542,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-![img](image-2.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-2.png)
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -586,7 +586,7 @@ $ chmod 755 iftest.sh
 $ ./iftest.sh 
 ## OUTPUT
 
-![alt text](image-3.png)
+![alt text](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-3.png)
 
 # check if a file
 cat > ifnested.sh 
@@ -637,7 +637,7 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 ## OUTPUT
 
-![img](image-4.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-4.png)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -667,7 +667,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-!img](image-5.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-5.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -684,7 +684,7 @@ $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
 
-![img](image-6.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-6.png)
 
 # using the case command
 cat >casecheck.sh 
@@ -707,7 +707,7 @@ $ ./casecheck.sh
 
 ## OUTPUT
 
-![alt text](image-7.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-7.png)
 
 cat > whiletest
 ```bash
@@ -724,7 +724,7 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
-![alt text](image-8.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-8.png)
 
 cat untiltest.sh 
 ```bash
@@ -740,7 +740,7 @@ $ chmod 755 untiltest.sh
 
 ## OUTPUT
 
-![alt text](image-9.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-9.png)
  
 cat forin1.sh 
 ```bash
@@ -756,7 +756,7 @@ $ chmod 755 forin1.sh
 
 ## OUTPUT
 
-![alt text](image-10.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-10.png)
 
 cat forin2.sh 
 ```bash
@@ -770,7 +770,7 @@ done
  
 $ chmod 755 forin2.sh
 
-![alt text](image-11.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-11.png)
  
 cat forin2.sh 
 ```bash
@@ -785,7 +785,7 @@ $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
 
-![alt text](image-12.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-12.png)
  
 cat forin3.sh 
 ```bash
@@ -798,7 +798,7 @@ done
 ```
 $ ./forin3.sh 
 
-![alt text](image-13.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-13.png)
  
 cat forin1.sh 
 ```bash
@@ -834,7 +834,7 @@ Khammam
 
 ## OUTPUT
 
-![alt text](image-14.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-14.png)
 
 
 cat forctype.sh 
@@ -850,7 +850,7 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
-![alt text](image-15.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-15.png)
 
 cat forctype1.sh 
 ```bash
@@ -865,7 +865,7 @@ $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
 
-![alt text](image-17.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-17.png)
 
 cat fornested1.sh 
 ```bash
@@ -885,7 +885,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
-![alt text](image-18.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-18.png)
  
 cat forbreak.sh 
 ```bash
@@ -903,7 +903,7 @@ echo "The for loop is completed“
 ```
 ## OUTPUT
 
-![alt text](image-19.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-19.png)
 
 $ chmod 755 forbreak.sh
  
@@ -930,7 +930,7 @@ $ chmod 755 forcontinue.sh
 $ ./forcontinue.sh 
 ## OUTPUT
 
-![alt text](image-20.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-20.png)
  
 cat exread.sh 
 ```bash
@@ -946,7 +946,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
-![alt text](image-18.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-18.png)
 
  cat exread1.sh
 ```bash
@@ -959,7 +959,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
-![alt text](image-21.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-18.png)
 
 $ ./exread1.sh 
  
@@ -980,7 +980,7 @@ fi
 ```
 ## OUTPUT
 
-![alt text](image-22.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-22.png)
  
 cat argshift.sh
 ```bash
@@ -992,7 +992,7 @@ done
 ```
 $ chmod 777 argshift.sh
 
-![alt text](image-23.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-23.png)
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
@@ -1029,7 +1029,7 @@ set +x
 
 cat > nc.awk
 
-![alt text](image-26.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-26.png)
 
 ```bash
 BEGIN{}
@@ -1060,7 +1060,7 @@ ubcdfghj
 awk -f nc.awk data.dat
 ## OUTPUT 
 
-![alt text](image-25.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-25.png)
  
 cat > palindrome.sh
 ```bash
@@ -1089,7 +1089,7 @@ fi
 ```
 ## OUTPUT 
 
-![alt text](image-24.png)
+![img](https://raw.githubusercontent.com/Nandakesore0210/OS-Linux-commands-Shell-script/main/image-24.png)
 
 # RESULT:
 The Commands are executed successfully.
